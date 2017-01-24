@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'rom-mapper', git: 'https://github.com/rom-rb/rom-mapper.git', branch: 'master'
+gem 'dry-initializer', github: 'dry-rb/dry-initializer'
 
 group :console do
   gem 'pry'
